@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 import { bold, yellowBright } from "colorette";
 import cp from "child_process";
 
@@ -6,9 +8,22 @@ cli();
 function cli() {
   let packageName = process.argv[2];
 
-  installer(`✅ Successfully installed package: ${yellowBright(bold(packageName))}`, "npm", "i", packageName);
+  installer(
+    `✅ Successfully installed package: ${yellowBright(bold(packageName))}`,
+    "npm",
+    "i",
+    packageName
+  );
 
-  installer(`🚀 Sucessfully installed types for package: ${yellowBright(bold(packageName))}`, "npm", "i", "-D", `@types/${packageName}`);
+  installer(
+    `🚀 Sucessfully installed types for package: ${yellowBright(
+      bold(packageName)
+    )}`,
+    "npm",
+    "i",
+    "-D",
+    `@types/${packageName}`
+  );
 }
 
 /**

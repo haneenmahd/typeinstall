@@ -1,6 +1,6 @@
 {
   "name": "typeinstall",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically installs types for your typescript project",
   "bin": {
     "typeinstall": "bin/typeinstall.js"
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/haneenmahd/typeinstall#readme",
   "devDependencies": {
     "@types/node": "^17.0.10",
-    "typeinstall": "^1.0.0"
+    "typeinstall": "^1.0.1"
   },
   "dependencies": {
     "colorette": "^2.0.16"
