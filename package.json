@@ -15,7 +15,10 @@
     "url": "git+https://github.com/haneenmahd/typeinstall.git"
   },
   "keywords": [
-    "typescript"
+    "typescript",
+    "types",
+    "packages",
+    "type-installer"
   ],
   "author": "Haneen Mahdin <haneenmahdin@gmail.com>",
   "license": "MIT",
