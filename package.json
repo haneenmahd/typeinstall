@@ -1,0 +1,26 @@
+{
+  "name": "typeinstall",
+  "version": "1.0.0",
+  "description": "Automatically installs types for your typescript project",
+  "main": "index.js",
+  "bin": {
+    "typeinstall": "bin/typeinstall.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node bin/typeinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haneenmahd/typeinstall.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Haneen Mahdin <haneenmahdin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haneenmahd/typeinstall/issues"
+  },
+  "homepage": "https://github.com/haneenmahd/typeinstall#readme"
+}
