@@ -1,6 +1,6 @@
 {
   "name": "typeinstall",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatically installs types for your typescript project",
   "bin": {
     "typeinstall": "bin/typeinstall.js"
