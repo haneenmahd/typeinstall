@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/haneenmahd/typeinstall/issues"
   },
-  "homepage": "https://github.com/haneenmahd/typeinstall#readme"
+  "homepage": "https://github.com/haneenmahd/typeinstall#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.10"
+  },
+  "dependencies": {
+    "colorette": "^2.0.16"
+  }
 }
