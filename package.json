@@ -27,7 +27,7 @@
   "homepage": "https://github.com/haneenmahd/typeinstall#readme",
   "devDependencies": {
     "@types/node": "^17.0.10",
-    "typeinstall": "^1.0.2"
+    "typeinstall": "^1.0.3"
   },
   "dependencies": {
     "colorette": "^2.0.16"
