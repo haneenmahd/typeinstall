@@ -1,6 +1,3 @@
-"use-strict";
-
-// @ts-check
 import { bold, yellowBright } from "colorette";
 import cp from "child_process";
 
