@@ -5,7 +5,7 @@
   "bin": {
     "typeinstall": "bin/typeinstall.js"
   },
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "jest"
   },

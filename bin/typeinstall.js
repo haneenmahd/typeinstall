@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { bold, yellowBright } from "colorette";
-import runner from "../lib/runner";
+const { bold, yellowBright } = require("colorette");
+const runner = require("../lib/runner");
 
 cli();
 
