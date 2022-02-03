@@ -7,7 +7,7 @@
   },
   "type": "commonjs",
   "scripts": {
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "repository": {
     "type": "git",
