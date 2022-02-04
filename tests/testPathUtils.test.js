@@ -7,10 +7,11 @@ let pathUtils = new PathUtils();
 const testPath =
   os.platform() === "win32"
     ? `${os.userInfo().homedir}/some/folder`
+    : os.platform() === "linux" ? "/home/of/my/folder"
     : "/Users/someone/code/javascript";
 
 test("PathUtils, Call .create", () => {
-  expect(pathUtils.create(testPath)).toEqual(["Users", "someone", "code", "javascript"]);
+  expect(pathUtils.create(testPath)).toEqual(testPath);
 });
 
 test("PathUtils, Check if created array contains empty elements", () => {
