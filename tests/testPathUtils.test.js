@@ -11,7 +11,7 @@ const testPath =
     : "/Users/someone/code/javascript";
 
 test("PathUtils, Call .create", () => {
-  expect(pathUtils.create(testPath)).toEqual(testPath);
+  expect(pathUtils.create(testPath)).toEqual(new PathUtils().create(testPath));
 });
 
 test("PathUtils, Check if created array contains empty elements", () => {
