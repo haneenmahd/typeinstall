@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "colorette": "^2.0.16",
-    "undefined": "^0.1.0"
+    "play-sound": "^1.1.5"
   }
 }
