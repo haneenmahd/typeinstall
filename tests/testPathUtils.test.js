@@ -3,7 +3,7 @@ const PathUtils = require("../lib/utils/PathUtils");
 let pathUtils = new PathUtils();
 
 test("PathUtils, Call .create", () => {
-  expect(pathUtils.create("/Users/someone/code/javascript").length).toBe(4);
+  expect(pathUtils.create("/Users/someone/code/javascript")).toEqual(["Users", "someone", "code", "javascript"]);
 });
 
 test("PathUtils, Check if created array contains empty elements", () => {
@@ -13,7 +13,7 @@ test("PathUtils, Check if created array contains empty elements", () => {
 });
 
 test("PathUtils, pop a path from the complete path", () => {
-  expect(pathUtils.pop().length).toBe(3);
+  expect(pathUtils.pop()).toEqual(["Users", "someone", "code"]);
 });
 
 test("PathUtils, join splitted path as a string", () => {
