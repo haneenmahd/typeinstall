@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/haneenmahd/typeinstall#readme",
   "devDependencies": {
-    "@types/node": "^17.0.10",
+    "@types/node": "^17.0.14",
     "jest": "^27.4.7",
     "typeinstall": "^1.0.3"
   },
