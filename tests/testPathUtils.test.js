@@ -1,3 +1,5 @@
+// NOTE: fix broken test suite
+
 const os = require("os");
 const PathUtils = require("../lib/utils/PathUtils");
 
@@ -17,11 +19,13 @@ test("PathUtils, Call .create", () => {
 test("PathUtils, Check if created array contains empty elements", () => {
   pathUtils.path.map((p) => {
     expect(p).not.toBe("");
-  });
+  }); 
 });
 
 test("PathUtils, pop a path from the complete path", () => {
-  expect(pathUtils.pop()).toEqual(new PathUtils().create(testPath).pop());
+  expect(pathUtils.pop()).toEqual(
+    new PathUtils(new PathUtils().create(testPath)).pop()
+  );
 });
 
 test("PathUtils, join splitted path as a string", () => {
