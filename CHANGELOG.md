@@ -1,3 +1,6 @@
+# v1.1.1 👾
+Fix running on CI servers
+
 # v1.1.0 😳🤪🎧
 Add background sound after every successful install command run.
 
