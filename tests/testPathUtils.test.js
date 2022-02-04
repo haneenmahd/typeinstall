@@ -15,3 +15,7 @@ test("PathUtils, Check if created array contains empty elements", () => {
 test("PathUtils, pop a path from the complete path", () => {
   expect(pathUtils.pop().length).toBe(3);
 });
+
+test("PathUtils, join splitted path as a string", () => {
+  expect(pathUtils.join()).toBe("/Users/someone/code");
+});
