@@ -7,9 +7,9 @@ const install = require("../lib/install");
  * The main install function 👻
  */
 const main = () => {
-    install("@types/node", true);
+    install("@types/cors", true);
 
-    install("play-sound", false);
+    install("cors", false);
 }
 
 main();
