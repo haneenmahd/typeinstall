@@ -30,4 +30,3 @@ test("PathUtils, join splitted path as a string", () => {
 test('PathUtils, Check the first element in .path', () => {
   expect(pathUtils.path[0]).toEqual(`${os.platform() !== "win32" && "/"}${new PathUtils().create(os.userInfo().homedir)[0]}`);
 });
-
