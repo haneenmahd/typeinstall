@@ -7,7 +7,7 @@
   },
   "type": "commonjs",
   "scripts": {
-    "test": "jest --detectOpenHandles",
+    "test": "jest --detectOpenHandles --coverage",
     "test-cli": "node bin/typeinstall"
   },
   "repository": {
