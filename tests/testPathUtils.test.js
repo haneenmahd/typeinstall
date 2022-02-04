@@ -21,11 +21,13 @@ test("PathUtils, Check if created array contains empty elements", () => {
 });
 
 test("PathUtils, pop a path from the complete path", () => {
-  expect(pathUtils.pop()).toEqual(["Users", "someone", "code"]);
+  expect(pathUtils.pop()).toEqual(new PathUtils().create(testPath).pop());
 });
 
 test("PathUtils, join splitted path as a string", () => {
-  expect(pathUtils.join()).toBe("/Users/someone/code");
+  expect(pathUtils.join()).toBe(
+    new PathUtils(new PathUtils().create(testPath)).join()
+  );
 });
 
 test('PathUtils, Check the first element in .path', () => {
