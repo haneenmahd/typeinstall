@@ -1,7 +1,8 @@
 # typeinstall
-![Preview](https://user-images.githubusercontent.com/72091386/150638026-91b39f20-75da-4517-ad47-0ed552f68d60.png)
 > Installing types for your typescript project made easy.
 Automatically installs types for packages 📦 with one command
+
+<img width="842" alt="Screenshot 2022-02-04 at 10 36 21 AM" src="https://user-images.githubusercontent.com/72091386/152475177-256426d9-89d2-455d-9cc4-a8d346c1c04b.png">
 
 ## Installation
 Using npm
