@@ -1,3 +1,6 @@
+# v1.1.0
+Add background sound after every successful install command run.
+
 # v1.0.3
 Fix wrong shebang ([#1](https://github.com/haneenmahd/typeinstall/issues/1))
 
