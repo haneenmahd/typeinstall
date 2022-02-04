@@ -11,3 +11,7 @@ test("PathUtils, Check if created array contains empty elements", () => {
     expect(p).not.toBe("");
   });
 });
+
+test("PathUtils, pop a path from the complete path", () => {
+  expect(pathUtils.pop().length).toBe(3);
+});
