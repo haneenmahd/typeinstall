@@ -8,8 +8,7 @@
   "type": "commonjs",
   "scripts": {
     "test": "jest --detectOpenHandles --coverage",
-    "test-cli": "node bin/typeinstall",
-    "test-install": "node tests/installPackages.js && npm test"
+    "cli": "node bin/typeinstall"
   },
   "repository": {
     "type": "git",
