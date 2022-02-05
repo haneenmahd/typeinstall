@@ -7,7 +7,7 @@
   },
   "type": "commonjs",
   "scripts": {
-    "test": "npm run cli express && cat package.json && jest --detectOpenHandles --coverage",
+    "test": "node bin/typeinstall.js express && cat package.json && jest --detectOpenHandles --coverage",
     "cli": "node bin/typeinstall.js"
   },
   "repository": {
@@ -27,12 +27,14 @@
   },
   "homepage": "https://github.com/haneenmahd/typeinstall#readme",
   "devDependencies": {
+    "@types/express": "^4.17.13",
     "@types/node": "^17.0.14",
     "jest": "^27.4.7",
     "typeinstall": "^1.1.0"
   },
   "dependencies": {
     "colorette": "^2.0.16",
+    "express": "^4.17.2",
     "play-sound": "^1.1.5"
   }
 }
