@@ -29,7 +29,7 @@
   "devDependencies": {
     "@types/node": "^17.0.14",
     "jest": "^27.4.7",
-    "typeinstall": "^1.0.3"
+    "typeinstall": "^1.1.0"
   },
   "dependencies": {
     "colorette": "^2.0.16",
