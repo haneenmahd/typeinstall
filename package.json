@@ -8,7 +8,7 @@
   "type": "commonjs",
   "scripts": {
     "test": "npm run cli express && jest --detectOpenHandles --coverage",
-    "cli": "node bin/typeinstall"
+    "cli": "node bin/typeinstall.js"
   },
   "repository": {
     "type": "git",
