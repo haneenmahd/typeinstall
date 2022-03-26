@@ -7,8 +7,8 @@
   },
   "type": "commonjs",
   "scripts": {
-    "test": "jest --detectOpenHandles --coverage",
-    "test-cli": "node bin/typeinstall"
+    "test": "node bin/typeinstall.js express && cat package.json && jest --detectOpenHandles",
+    "cli": "node bin/typeinstall.js"
   },
   "repository": {
     "type": "git",
@@ -27,12 +27,15 @@
   },
   "homepage": "https://github.com/haneenmahd/typeinstall#readme",
   "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.0",
     "@types/node": "^17.0.14",
     "jest": "^27.4.7",
-    "typeinstall": "^1.0.3"
+    "typeinstall": "^1.1.0"
   },
   "dependencies": {
     "colorette": "^2.0.16",
+    "express": "^4.17.3",
     "play-sound": "^1.1.5"
   }
 }
