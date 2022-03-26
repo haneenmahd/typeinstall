@@ -1,5 +1,6 @@
 const findPackageManager = require("../lib/utils/findPackageManager");
 
 test("Check package manager", () => {
-  expect(findPackageManager()).toEqual("npm");
+  expect(findPackageManager().manager).toEqual("npm");
+  expect(findPackageManager().installCommand).toEqual("install");
 });
