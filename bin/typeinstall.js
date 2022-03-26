@@ -1,14 +1,13 @@
 #!/usr/bin/env node
 
-const { bold, yellowBright } = require("colorette");
-const installer = require("../lib/installer");
+const Installer = require("../lib/Installer");
 
 function cli() {
   let packageName = process.argv[2];
 
-  installer(packageName);
+  Installer.installPkg(packageName)
 
-  installer(`@types/${packageName}`)
+  Installer.installPkgTypes(packageName)
 }
 
 cli();
