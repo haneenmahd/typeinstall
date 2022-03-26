@@ -1,3 +1,18 @@
+# v2.0.0
+## What's Changed
+* Added support for yarn
+* Create CODE_OF_CONDUCT.md by @haneenmahd in https://github.com/haneenmahd/typeinstall/pull/2
+* Update issue templates by @haneenmahd in https://github.com/haneenmahd/typeinstall/pull/3
+* Add contributing guidelines by @haneenmahd in https://github.com/haneenmahd/typeinstall/pull/4
+* Fix broken test suite by @haneenmahd in https://github.com/haneenmahd/typeinstall/pull/5
+* build(deps): bump minimist from 1.2.5 to 1.2.6 by @dependabot in https://github.com/haneenmahd/typeinstall/pull/6
+
+## New Contributors
+* @haneenmahd made their first contribution in https://github.com/haneenmahd/typeinstall/pull/2
+* @dependabot made their first contribution in https://github.com/haneenmahd/typeinstall/pull/6
+
+**Full Changelog**: https://github.com/haneenmahd/typeinstall/compare/v1.1.1...v2.0.0
+
 # v1.1.1 👾
 Fix running on CI servers
 
