@@ -1,28 +1,14 @@
 #!/usr/bin/env node
 
 const { bold, yellowBright } = require("colorette");
-const runner = require("../lib/runner");
-
-cli();
+const installer = require("../lib/installer");
 
 function cli() {
   let packageName = process.argv[2];
 
-  runner(
-    `✅ Successfully installed package: ${yellowBright(bold(packageName))}`,
-    "npm",
-    "i",
-    packageName
-  );
+  installer(packageName);
 
-  runner(
-    `🚀 Sucessfully installed types for package: ${yellowBright(
-      bold(packageName)
-    )}`,
-    "npm",
-    "i",
-    "-D",
-    `@types/${packageName}`
-  );
+  installer(`@types/${packageName}`)
 }
 
+cli();
