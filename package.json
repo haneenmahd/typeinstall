@@ -7,7 +7,7 @@
   },
   "type": "commonjs",
   "scripts": {
-    "test": "node bin/typeinstall.js express && cat package.json && jest --detectOpenHandles --coverage",
+    "test": "node bin/typeinstall.js express && cat package.json && jest --detectOpenHandles",
     "cli": "node bin/typeinstall.js"
   },
   "repository": {
