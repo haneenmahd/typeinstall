@@ -1,3 +1,6 @@
+# v2.0.1
+Remove test dep: express
+
 # v2.0.0
 ## What's Changed
 * Added support for yarn
