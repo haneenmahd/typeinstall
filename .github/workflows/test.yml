@@ -27,6 +27,5 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm install
-      - run: npm run test
-      - run: cat package.json
       - run: npm run cli express
+      - run: npm run test
