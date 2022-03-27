@@ -6,6 +6,10 @@
     "typeinstall": "bin/typeinstall.js"
   },
   "type": "commonjs",
+  "directories": {
+    "bin": "bin",
+    "lib": "lib"
+  },
   "scripts": {
     "test": "node bin/typeinstall.js express && cat package.json && jest --detectOpenHandles",
     "cli": "node bin/typeinstall.js"
